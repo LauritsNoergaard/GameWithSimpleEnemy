@@ -1,0 +1,25 @@
+#gamefield {
+    width: 248;
+    height: 248;
+    background-color: gray;
+}
+
+#player {
+    background-image: url("/Characters/Character\ 1.png");
+    width: 32;
+    height: 40;
+    background-size: 400%, 400%;
+    background-position: 0% 100%;
+    image-rendering: pixelated;
+    translate: 100px 100px;
+}
+
+#enemy {
+    background-image: url("/Characters/Character\ 6.png");
+    width: 32;
+    height: 40;
+    background-size: 400%, 400%;
+    background-position: 0% 0%;
+    image-rendering: pixelated;
+    translate: 100px 100px;
+}
